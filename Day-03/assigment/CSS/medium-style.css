@@ -1,0 +1,25 @@
+.picture-container img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.texts {
+    width: 90%;
+}
+
+.texts img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.text-group {
+    display: flex;
+    margin: 10px;
+    gap: 15px;
+}
+
+.txt {
+    width: 100%;
+}
+

@@ -71,13 +71,16 @@ body {
     margin: 450px;
 }
 
-
 @media only screen and (max-width: 1400px) {
     body {
         background-color: rgb(255, 213, 0);
     }
-    .container #text1 {
+    .text::after {
         display: none;
+    }
+
+    .text::before {
+        display: block;
     }
 }
 
@@ -86,8 +89,11 @@ body {
     body {
         background-color: rgb(255, 79, 56);
     }    
-    .container #text2 {
+    text::after {
         display: none;
+    }
+    .text::before {
+        display: block
     }
 }
 
@@ -95,7 +101,7 @@ body {
     body {
         background-color: rgb(21, 229, 90);
     }    
-    .container #text3 {
+    .text {
         display: none;
     }
 }
@@ -104,7 +110,7 @@ body {
     body {
         background-color: rgb(117, 44, 242);
     }    
-    .container #text4 {
+    .text {
         display: none;
     }
 }
@@ -113,7 +119,7 @@ body {
     body {
         background-color: rgb(38, 0, 255);
     }    
-    .container #text5 {
+    .text {
         display: none;
     }
 }
