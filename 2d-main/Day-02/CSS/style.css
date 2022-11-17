@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-box {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(124, 93, 51);
+    box-shadow: 2px 2px 5px black;
+}
+
+.search-box:hover .search-txt {
+    width: 200px;
+    transition-duration: 1s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.6s;
+    width: 0px;
+} 
