@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 8, 0);
+    text-align: center;
+    margin-top: 20%;
+}
+
+p:first-child{
+    display: block;
+}
+
+p{
+    display: none;
+}
