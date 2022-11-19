@@ -8,71 +8,82 @@
     <title>Assignment-Day-04</title>
 </head>
 <body>
-    <div class="container-navigation m-3">
-        <div class="row m-1 p-2 bg-secondary">
-            <div class="col-2">Brand Name</div>
-            <div class="col-8 bg-danger">Menu</div>
-            <div class="col-2 bg-info">Dropdown</div>
+    <div class="container-navigation m-2">
+        <nav class="navbar navbar-expand-sm rounded bg-secondary">
+            <div class="container-fluid text-white">
+              <a class="navbar-brand text-warning" href="#"><h4>Tushig Movie Guide</h4></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-info" aria-current="page" href="#">Top Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary" aria-current="page" href="#">New Movies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row m-4 text-white">
+        <div class="container overflow-hidden">
+            <div class="row">
+                <div class="card col-sm-4 p-2">
+                    <img src="voyagers.jpg" class="rounded" alt="voyagers movie poster">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title text-white bg-dark p-1 opacity-75">Voyagers (2021)</h4>
+                        <a href="#" class="text-decoration-none text-white">A crew of astronauts on a multi-generational mission descend into paranoia and madness, not knowing what is real or not.</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-4 p-2">
+                    <img src="Batman.webp" class="rounded" alt="Batman movie poster 2022">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title text-white bg-dark p-1 opacity-75">The Batman (2022)</h4>
+                        <a href="#" class="text-decoration-none text-white">When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-4 p-2">
+                    <img src="Topgun.webp" class="rounded" alt="Tom cruise 2022 movie Topgun">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title text-white bg-dark p-1 opacity-75">Topgun Maverick (2022)</h4>
+                        <a href="#" class="text-decoration-none text-white">After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.</a>
+                    </div>
+                </div>  
+                </div>
+            </div>
+        </div>
+
+    <div class="row m-4">
+        <div class="card">
+            <img src="Film-posters-800x445.png" class="card-img-top" alt="Film-posters-800x445">
+            <div class="card-body">
+              <h5 class="card-title">Film posters and its importance in your project</h5>
+              <p class="card-text">Film Posters are a vital part of promoting your film’s brand and it is a great marketing tool. An effective film poster is the first step in achieving this.</p>
+              <a href="#" class="btn btn-primary">Show more</a>
+            </div>
         </div>
     </div>
 
-    <div class="row m-4 gap-4 text-white">
-        <div class="row-left col-3 bg-secondary">
-            <div class="col-4 m-3 bg-success  "><h1>image</h1></div>
-            <div class="row m-3">
-                <a class="text" href="#">links</a>
-                <a class="text" href="#">links</a>
-                <a class="text" href="#">links</a>
-            </div>
+    <footer>
+        <div class="row m-4 p-3 bg-dark text-white">
+            <div class="col-sm-2">footer text-1</div>
+            <div class="col-sm-4">footer text-2</div>
+            <div class="col-sm-4">footer text-3</div>
+            <div class="col-sm-2">footer text-4</div>
         </div>
-
-        <div class="row p-4 gap-2 col-9 bg-secondary">
-            <div class="col-4">
-                <div class="row">
-                    <div class="col-2 p-2 bg-info">Title</div>
-                </div>
-                <div class="row">
-                    <div class="col-2 p-2 bg-info">Title</div>
-                </div>
-                <div class="row">
-                    <div class="col-2 p-2 bg-info">Title</div>
-                </div>
-                <div class="row">
-                    <div class="col-2 p-2 bg-info">Title</div>
-                </div>
-            </div>
-
-        <div class="col-6">
-            <div class="container col-10 bg-success">
-                <div class="col-4"><img src="pexels.jpg" class="img-fluid" alt="Pexels.jpg"></div>
-                <div class="col-12 m-1 bg-secondary"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet quisquam, doloribus corrupti voluptas neque est illo a labore! Soluta, molestiae error! Corrupti dignissimos fugiat voluptatibus. Eum architecto neque praesentium!</p></div>
-                <div class="col-12 mb-1 bg-info"><p>Description text</p></div>
-            </div>
-        </div>
-
-            <div class="row col-12 m-1 bg-danger">
-                <div class="row col-2"><h4>setting</h4></div>
-                <div class="row col-2"><h4>toggle</h4></div>
-                <div class="row col-2"><h4>input</h4></div>
-                <div class="row">
-                    <div class="btn col-2 btn-info"><h4>Cansel Button</h4></div>
-                    <div class="btn col-2 btn-info"><h4>Save Button</h4></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-footer m-3 bg-warning">
-        <div class="row p-3">
-            <div class="col-1">Footer</div>
-            <div class="col-1">Text1</div>
-            <div class="col-1">Footer</div>
-            <div class="col-7">Text2</div>
-            <div class="col-1">Footer</div>
-            <div class="col-1">Text3</div>
-        </div>
-    </div>
-
+    </footer>
+          
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
