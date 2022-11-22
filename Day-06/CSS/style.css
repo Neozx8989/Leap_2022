@@ -1,0 +1,31 @@
+
+
+.col-md-6 img:hover {
+    box-shadow: -9px 9px 20px rgb(253, 177, 70);
+    transition: 0.5s;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.container:nth-child(2) h1:nth-child(2) {
+    text-shadow: 2px 2px 10px rgb(255, 204, 0);
+    color: rgb(255, 186, 49);
+}
+
+.container:nth-child(2) p {
+    color: rgb(255, 219, 161);
+}
+
+.container:nth-child(2) {
+    background-image: url(../advanced-mobile/images/1234043.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-item a{
+    color: antiquewhite;
+}
+
+.dropdown-menu a {
+    color: rgb(17, 17, 17);
+}
