@@ -20,6 +20,7 @@
     background-image: url(../advanced-mobile/images/1234043.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-item a{
@@ -28,4 +29,11 @@
 
 .dropdown-menu a {
     color: rgb(17, 17, 17);
+}
+
+.background-image {
+    background-image: url(../advanced-mobile/images/pexels-alex-conchillos-3648850.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
