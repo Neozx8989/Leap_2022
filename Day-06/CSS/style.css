@@ -37,3 +37,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container:nth-child(4) {
+    background-image: url(../advanced-mobile/images/maxresdefault.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
