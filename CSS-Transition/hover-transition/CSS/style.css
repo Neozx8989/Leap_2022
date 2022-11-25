@@ -1,0 +1,26 @@
+li {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(27, 103, 255);
+    list-style: none;
+}
+
+li:hover {
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(27, 103, 255);
+    transition: 0.7s;
+}
+
+.green {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(10, 154, 37);
+}
+
+.green:hover {
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(10, 154, 37);
+    transition: 0.7s;
+}
