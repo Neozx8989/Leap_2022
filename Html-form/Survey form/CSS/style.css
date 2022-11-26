@@ -21,7 +21,7 @@ h2 {
 
 .section-area {
     margin: 0 auto;
-    background-image: linear-gradient(to right, rgba(0, 137, 171, 0.4), rgb(7, 192, 146));
+background-image: linear-gradient(to right, rgba(0, 137, 171, 0.4), rgb(7, 192, 146));    
     width: 520px;
     height: 800px;
     box-shadow: 2px 2px 15px black;
