@@ -1,0 +1,87 @@
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 239));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header-main img {
+    margin: 10px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.header-main {
+    display: flex;
+}
+
+.navbar-area {
+    margin: 20px 350px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+
+.btn-area {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.snowy-mountain {
+    background-image: url(../images/pexels-pixabay-279504.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.text-light {
+    text-shadow: 2px 2px 10px black;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+}
+
+input {
+    border: none;
+    border-radius: 12px;
+    width: 550px;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(140, 236, 248, 0.7);
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 500ms;
+}
+
+button:hover {
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 252, 255);
+    box-shadow: 2px 2px 10px black;
+}
+
+/* Summer site */   
+
+.summer-time {
+    background-image: url(../image-summer/pexels-pixabay-219998.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
