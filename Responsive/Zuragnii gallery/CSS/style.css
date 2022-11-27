@@ -48,7 +48,6 @@ a {
 
 img {
     border-radius: 5px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
 }
 
 input {
@@ -85,3 +84,49 @@ button:hover {
     background-size: cover;
     height: 450px;
 }
+
+/* Mountain side full size picture view */
+
+.mountainside {
+    margin: 0 auto;
+    background-image: url(../images/pexels-roni-alfasi-2737232.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 70%;
+    box-shadow: 3px 3px 15px black;
+    border-radius: 7px;
+}
+
+iframe {
+    border-radius: 7px;
+    box-shadow: 3px 3px 15px black;
+}
+
+.locate-area {
+    display: flex;
+    margin: 20px 195px;
+    gap: 40px;
+}
+
+h3 {
+    font-size: 18px;
+    text-shadow: 3px 3px 15px rgb(129, 129, 129);
+}
+
+/* Kammeren sea */
+
+.kammeren {
+    margin: 0 auto;
+    background-image: url(../image-summer/pexels-kammeran-gonzalezkeola-9638682.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 70%;
+    box-shadow: 3px 3px 15px black;
+    border-radius: 7px;
+}
+
+
