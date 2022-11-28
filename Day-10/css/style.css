@@ -1,4 +1,6 @@
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    color: rgb(15, 205, 50);
 }
