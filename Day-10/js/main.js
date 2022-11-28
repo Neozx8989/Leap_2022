@@ -53,7 +53,7 @@
     
     
     var text = (6 + 8);
-    alert("Hi I added 6 + 8"); 
+    alert("... Энэ үйлдэлийг та зөвшөөрч байна уу?"); 
 
-    text = 14
-    alert("It is " + text );
+    text = "127.0.0.1:5500 Ip-тай хэрэглэгч таньд баярлалаа :D ";
+    alert(text);

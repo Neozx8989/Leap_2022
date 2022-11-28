@@ -16,6 +16,7 @@ h1:hover {
     background-image: linear-gradient(to right, rgb(170, 208, 255), rgb(0, 110, 255));
     width: 240px;
     color: aliceblue;
+    z-index: +1;
 }
 
 p {
@@ -33,6 +34,7 @@ p {
 }
 
 p:hover {
+    z-index: -1;
     left: 120px;
     top: 10px;
     background-color: red;
