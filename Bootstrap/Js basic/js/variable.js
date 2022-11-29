@@ -18,14 +18,14 @@ let text = "Good Morning ? Tushig"
 console.log(text);
 
 // 8. Олон мөрөнд First name, last name, marital status, country, age гэсэн нэртэй хувьсагч зарлах  
-//arail tsegtsgui bolno gej bodjin neeh urt :(
-
-// 9. Нэг мөрөнд First name, last name, marital status, country, age гэсэн нэртэй хувьсагч зарлах 
 let variables = 'First name';
 variables = 'Last name';
 variables = 'Marital status';
 variables = 'Country', age = 19;
 console.log(variables);
+
+// 9. Нэг мөрөнд First name, last name, marital status, country, age гэсэн нэртэй хувьсагч зарлах 
+//arail tsegtsgui bolno gej bodjin neeh urt :(
 
 // 10. MyAge, yourAge нэртэй хувьсагч зарлан эхний утгыг оноох 
 let MyAge = 19;
