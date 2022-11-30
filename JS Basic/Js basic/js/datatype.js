@@ -8,3 +8,5 @@ message = "Sain baina uu";
 
 console.log(typeof(message)); // "string"
 message = "Utga uurcluw";
+
+

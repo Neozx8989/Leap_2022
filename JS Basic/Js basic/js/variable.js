@@ -52,5 +52,29 @@ let mb = 15;
 let bits = 8388608;
 console.log(mb * bits);
 
-// 16. side1, side2, side3 гэсэн хувьсагчдад гурвалжны гурван талыг онооно. Ийнхүү гурван тал өгөдсөн байхад үед гурвалжны талбайг ол.
+// 16. side1, side2, side3 гэсэн хувьсагчдад гурвалжны гурван талыг онооно. Ийнхүү гурван тал өгөдсөн байхад үед гурвалжны талбайг ол.'
+let side1 = 2;
+let side2= 4; 
+let side3 = 6;
+console.log((side1 * side2) / side3);
+
+//22 baby shark
+
+var baby = 'Baby Shark, doo-doo, doo-doo';
+console.log(baby);
+
+console.log(baby);
+
+console.log(baby);
+
+console.log(baby);
+
+var mommy = 'Mommy Shark, doo-doo, doo-doo';
+console.log(mommy);
+
+console.log(mommy);
+
+console.log(mommy);
+
+console.log(mommy);
 
