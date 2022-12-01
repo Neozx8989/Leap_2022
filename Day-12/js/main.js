@@ -37,7 +37,7 @@
 // const tip2 = 27500;
 // const tip3 = 100000;
 
-// if (5000 >= tip1 && 30000 <= tip1) {
+// if (5000 >= tip1 && 30000 => tip1) {
 //     console.log('bodlogo bodoh 15%')
 // } else {
 //     console.log('busad bodoh 20%');
