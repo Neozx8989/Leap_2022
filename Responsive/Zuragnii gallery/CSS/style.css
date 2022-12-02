@@ -1,11 +1,11 @@
 body {
-    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 239));
+    background-image: linear-gradient(to right, rgb(48, 48, 48) , rgb(0, 0, 0));
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .header-main img {
@@ -40,6 +40,22 @@ a {
     background-position: center;
     background-size: cover;
     height: 450px;
+    box-shadow: 2px 2px 25px rgb(91, 91, 91);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    transition-duration: 350ms;
+}
+
+.snowy-mountain:hover {
+    background-image: url(../images/pexels-pixabay-279504.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    box-shadow: 2px 2px 25px rgb(217, 217, 217);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .text-light {
@@ -83,6 +99,10 @@ button:hover {
     background-position: center;
     background-size: cover;
     height: 450px;
+    box-shadow: 2px 2px 25px rgb(255, 229, 170);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 /* Mountain side full size picture view */
@@ -129,4 +149,13 @@ h3 {
     border-radius: 7px;
 }
 
+
+.col-sm-6 img {
+    box-shadow: 2px 2px 25px rgb(91, 91, 91);
+    transition-duration: 350ms;
+}
+
+.col-sm-6 img:hover {
+    box-shadow: 2px 2px 25px rgb(217, 217, 217);
+}
 
