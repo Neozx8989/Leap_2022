@@ -1,8 +1,5 @@
-let A = 100;
-let B = 80;
-let C = 70;
-let D = 60;
-let F = 50;
-console.log(A, B, C, D, F);
-
-
+// 1972
+let yearofBirth = prompt("Heden ond tursun be?");
+let currentYear = 2022;
+const old = currentYear - yearofBirth;
+console.log(old);
