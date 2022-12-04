@@ -38,7 +38,9 @@ let myAge = 19;
 let yourAge = Number(prompt("Насаа оруулна уу"));
 
 if (myAge < yourAge) {
-    console.log("Sain baina uu ta")
+    console.log("Sain baina uu ta saihan uwuljij baina uu")
 } else {
     console.log("Sain baina uu minii duu")
 }
+
+// 4.
