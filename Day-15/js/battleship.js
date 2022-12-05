@@ -10,13 +10,21 @@
 
 */
 
-// let guesses = 0;
-// let isSunk = false;
-// let hit = 0;
+let guesses = 0;
+let isSunk = false;
+let hit = 0;
 
 // let location1 = 3;
 // let location2 = 4;
 // let location3 = 5;
+
+let locations = [false, false, true, true, true, false];
+
+for(let i = 0; i <= 5; i++ ) {
+    console.log(locations[i]);
+    
+}
+
 
 // while(!isSunk) {
 //     console.log("Togloom ehelle")
