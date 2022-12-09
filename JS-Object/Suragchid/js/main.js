@@ -1,5 +1,6 @@
 function upTwoTwenty(array) {
-    if(let i = 0 ; i < array.length ; i++) {
+    for (let i = 0 ; i < array.length ; i++) {
+        if((2022 - array.length[i]))
         console.log(array[i]);
     }
 }
