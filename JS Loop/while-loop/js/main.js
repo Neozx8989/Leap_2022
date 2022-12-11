@@ -31,3 +31,5 @@ for(let naturalNum = 1; naturalNum <= 10; naturalNum++){
 // }
 
 
+
+
