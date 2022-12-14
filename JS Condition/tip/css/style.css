@@ -3,3 +3,9 @@ h1 {
     text-shadow: 2px 2px 15px black;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    background-color: cadetblue;
+    padding: 20px;
+}
