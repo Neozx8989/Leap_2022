@@ -42,7 +42,7 @@ let counter = 0;
 // setInterval(startInterval, 1000);
 
 function startInterval() {
-    let now = new Date();
+    let now = new Date(); // vvseh uyiin tsagiig hadgalchij bga DATE ()
     let myTimer = document.getElementById('myTimer').innerHTML = now;
     myTimer.innerHTML = now
     console.log(counter);
