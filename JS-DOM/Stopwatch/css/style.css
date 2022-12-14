@@ -33,3 +33,21 @@ button:hover {
     box-shadow: 2px 2px 13px rgb(253, 251, 246);
 }
 
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 200, 21);
+    border-radius: 10px;
+    padding: 19px;
+    transition-duration: 300ms;
+}
+a:hover {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 219, 101);
+    border-radius: 10px;
+    padding: 19px;
+    box-shadow: 2px 2px 13px rgb(253, 251, 246);
+}
+
+
