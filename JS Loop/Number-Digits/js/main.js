@@ -1,2 +1,2 @@
-let gadnahToo = (Number(prompt('Give me numbers')));
-console.log(gadnahToo.length); 
+let gadnahToo = Number(prompt('Give me numbers').length);
+console.log(gadnahToo); 
