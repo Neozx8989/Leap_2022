@@ -6,13 +6,36 @@ console.log(`2. -----Array доторх тоонуудын нийлбэрийг 
 let sum = 0;
 for (let i = 0; i < arrayOfNumbers.length; i++) {
     sum = sum + arrayOfNumbers[i];
-    console.log(arrayOfNumbers[i] + sum)
+    console.log(+ sum)
 }
 
+// 3. Хамгийн их тоог ол.
+console.log(`3. -----Хамгийн их тоог ол.-----`)
+let hamgiinIhToo = 0;
+for (let i = 0; i < arrayOfNumbers.length; i++) {
+   if(hamgiinIhToo < arrayOfNumbers[i]) {
+    hamgiinIhToo = arrayOfNumbers[i]
+   } else {
+    min = arrayOfNumbers[i]
+   }
+}
+console.log(+ hamgiinIhToo)
+
+// 4. Хамгийн бага тоог ол.
+console.log(`4. -----Хамгийн бага тоог ол.-----`)
+
+for (let i = 0; i < arrayOfNumbers.length; i++) {
+    if(hamgiinIhToo > arrayOfNumbers[i]) {
+     hamgiinIhToo = arrayOfNumbers[i]
+    } else {
+     min = arrayOfNumbers[i]
+    }
+ }
+ console.log(+ hamgiinIhToo)
 
 // 5. Array - ийн эхэнд дурын 1 тоог нэм.
 console.log(`5. ------Array - ийн эхэнд дурын 1 тоог нэм.------`)
-console.log(arrayOfNumbers.unshift(21));
+arrayOfNumbers.unshift(21);
 console.log(arrayOfNumbers)
 
 // 6. Array - ийн төгсгөлд дурын 1 тоог нэм.
