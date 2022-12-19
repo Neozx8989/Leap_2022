@@ -6,7 +6,7 @@ console.log(`2. -----Array доторх тоонуудын нийлбэрийг 
 let sum = 0;
 for (let i = 0; i < arrayOfNumbers.length; i++) {
     sum = sum + arrayOfNumbers[i];
-    console.log(+ sum)
+    console.log(sum)
 }
 
 // 3. Хамгийн их тоог ол.

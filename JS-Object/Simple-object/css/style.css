@@ -4,3 +4,10 @@ body {
 h1 {
     text-align: center;
 }
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
