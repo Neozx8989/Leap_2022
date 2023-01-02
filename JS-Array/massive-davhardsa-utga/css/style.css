@@ -1,15 +1,14 @@
 body {
     background-color: black;
 }
-
 h1 {
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(24, 167, 86);
 }
 
 a {
     text-decoration: none;
+    padding: 20px;
     background-color: orange;
     color: black;
-    padding: 10px;
 }
