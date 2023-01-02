@@ -1,0 +1,11 @@
+h1 {
+    background-color: rgb(8, 193, 150);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    color: black;
+}
