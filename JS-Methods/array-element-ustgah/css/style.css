@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(31, 29, 49);
+}
+
+h1 {
+    background-color: rgb(21, 125, 216);
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+}
+
