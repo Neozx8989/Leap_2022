@@ -1,0 +1,12 @@
+h1 {
+    background-color: rgb(27, 187, 86);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+}
+
