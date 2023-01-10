@@ -1,0 +1,13 @@
+h1 {
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+a {
+    padding: 20px;
+    background-color: orange;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
