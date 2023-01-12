@@ -19,6 +19,14 @@ console.log(randomArr.indexOf(3))
 // Тухайн тэмдэгт байвал индексийг буцаана. Байхгүй бол -1 буцаана. 2doh bodlogtoi adilhan asuulttai bn?
 
 // 4. Өгөгдсөн 2 тоон интервал дахь санамсаргүй тоо буцаах функц бич.
+function randomNumber (a, b) {
+    let max = Math.max(a, b)
+    let min = Math.min(a, b)
+    const c = Math.floor(Math.random() * (max - min + 1) + min);
+    return c
+}
+
+console.log(randomNumber(2, 5)) // 3
 
 
 //5. Өгөгдсөн array - ийн дундажыг олох функц бич.
@@ -26,3 +34,13 @@ console.log(randomArr.indexOf(3))
 let myArr = [1, 2, 3, 4, 5, 6, 7, 8]
 // 6. Өгөгдсөн array - ийн нийлбэрийг олох функц бич.
 
+// 8.
+// console.log('ABC'.toLocaleLowerCase)
+function strToLowerCase(arr){
+    for(let i = 0; i< arr.length; i++) {
+        console.log(arr[i].toUpperCase()) // eserger n to LowerCase
+        arr[i] = arr[i].toUpperCase()
+    }
+    return arr
+}
+console.log((strToLowerCase(b)))
